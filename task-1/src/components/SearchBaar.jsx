@@ -20,7 +20,7 @@ export default function SearchBaar(){
                   onChange={(e) => setStatusFilter(e.target.value)}
                   className="p-2 border rounded-md text-sm bg-white outline-none">
          
-                  <option value="All">All Status</option>
+                  <option value="All Status">All Status</option>
                   <option value="New">New</option>
                   <option value="In Progress">In Progress</option>
                   <option value="Closed">Closed</option>

@@ -11,7 +11,9 @@ export default function EnquiryTable() {
       item.property.toLowerCase().includes(searchTerm.toLowerCase());
 
     const matchesStatus =
-      statusFilter === 'All Status' || item.status === statusFilter;
+      statusFilter === 'All Status' || statusFilter === ''?
+      true
+      :item.status.toLowerCase() === statusFilter.toLowerCase();
 
     return matchesSearch && matchesStatus;
   });
@@ -60,13 +62,15 @@ export default function EnquiryTable() {
               </td>
               <td className="p-3 text-center space-x-2">
                 <button
-                  onClick={() => setEditId(item.id)}
+                  onClick={() =>
+                    setEditId(item.id)}
                   className="bg-blue-500 text-white p-1 rounded hover:bg-blue-600"
                 >
                   ✏️
                 </button>
                 <button
-                  onClick={() => deleteEnquiry(item.id)}
+                  onClick={() =>
+                    deleteEnquiry(item.id)}
                   className="bg-red-500 text-white p-1 rounded hover:bg-red-600"
                 >
                   🗑️
