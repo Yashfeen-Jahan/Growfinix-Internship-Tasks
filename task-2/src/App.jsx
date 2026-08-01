@@ -8,12 +8,12 @@ function App() {
   const [messages, setMessages] = useState(initialMessages);
   const [isTyping, setIsTyping] = useState(false);
 
-  // Time Formatter Helper (e.g. 10:31 AM)
+  
   const getCurrentTime = () => {
     return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
   };
 
-  // Message Send Handle Function
+
   const handleSendMessage = (text) => {
     // 1. User ka message add karein
     const userMsg = {
@@ -26,11 +26,11 @@ function App() {
     setMessages((prev) => [...prev, userMsg]);
     setIsTyping(true); // Typing indicator START
 
-    // 2. Mock Delay (1.5s) ke baad AI ka fake reply add karein
+    
     setTimeout(() => {
       const lowerText = text.toLowerCase();
       
-      // Keyword matching from mockResponses
+     
       let botReplyText = mockResponses["default"];
       for (const key in mockResponses) {
         if (lowerText.includes(key)) {
@@ -56,7 +56,7 @@ function App() {
       {/* 1. Left Sidebar */}
       <Sidebar />
 
-      {/* 2. Main Chat Area + Input Box */}
+   
       <div className="flex-1 flex flex-col h-full">
         <ChatArea messages={messages} isTyping={isTyping} />
         <InputBox onSendMessage={handleSendMessage} disabled={isTyping} />

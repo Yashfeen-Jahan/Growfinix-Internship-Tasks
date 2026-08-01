@@ -8,7 +8,7 @@ export default function InputBox({ onSendMessage, disabled }) {
     e.preventDefault();
     if (text.trim() && !disabled) {
       onSendMessage(text);
-      setText(''); // Input clear karna send ke baad
+      setText(''); 
     }
   };
 
@@ -26,7 +26,6 @@ export default function InputBox({ onSendMessage, disabled }) {
           <Paperclip className="w-5 h-5" />
         </button>
 
-        {/* Input Text Box */}
         <input
           type="text"
           value={text}
@@ -46,7 +45,7 @@ export default function InputBox({ onSendMessage, disabled }) {
         </button>
       </form>
 
-      {/* Footer Text */}
+     
       <p className="text-[11px] text-center text-slate-400 mt-2">
         Smart Chat Interface Simulator | Built with ❤️ using React, Tailwind CSS & Framer Motion
       </p>
