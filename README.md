@@ -13,11 +13,17 @@ These projects were developed as part of the internship program to improve pract
 - Context API
 - Tailwind CSS
 
-### ⏳ Task 2
-Coming Soon
+###  Task 2 - Smart Chat Interface Simulator
+- React.js
+- Tailwind CSS
+- Framer-motion
 
-### ⏳ Task 3
-Coming Soon
+
+###  Task 3 - User Account & Session Management Panel
+- React.js
+- Tailwind CSS
+- React-router
+
 
 ## Internship
 

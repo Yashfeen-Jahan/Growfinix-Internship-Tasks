@@ -41,7 +41,7 @@ src/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/growfinix-smart-chat-simulator.git
+git clone https://github.com/Yashfeen-Jahan/growfinix-smart-chat-simulator.git
 ```
 
 2. Open the project
