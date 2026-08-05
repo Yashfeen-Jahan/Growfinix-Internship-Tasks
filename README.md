@@ -24,6 +24,10 @@ These projects were developed as part of the internship program to improve pract
 - Tailwind CSS
 - React-router
 
+### ⏳ Task 2 - Smart Chat Interface Simulater
+- React.js
+- Tailwind CSS
+- Framer Motion
 
 ## Internship
 
