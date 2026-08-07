@@ -49,8 +49,8 @@ src
 ## ⚙️ Installation
 
 ```bash
-git clone <repository-url>
-cd user-account-session-management-panel
+git clone <https://github.com/Yashfeen-Jahan/growfinix-user-account-and-session-mangement-panel.git>
+cd task-3
 npm install
 npm run dev
 ```
