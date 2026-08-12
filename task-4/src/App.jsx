@@ -36,7 +36,9 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#e7c7a3] text-stone-800 flex flex-col justify-between font-sans">
+    <div className="min-h-screen bg-cover bg-center bg-fixed text-white font-sans backgrop-blur-md relative"style={{
+      backgroundImage: `url('https://i.pinimg.com/736x/cb/66/6e/cb666e40acec29346fe0a5c4005a0136.jpg')`
+    }}>
       <Header />
 
       <main className="max-w-4xl w-full mx-auto px-4 py-10 flex-grow">

@@ -1,11 +1,8 @@
+# Growfinix Internship - Task 4
+
 # 📝 AI-Powered Text Summarizer
 
 An AI-powered text summarization application built using **React**, **Tailwind CSS**, and **Google Gimini Api**. Users can paste long text, generate concise summaries, and improve reading efficiency.
-
-
-## 📂 GitHub Repository
-
-git clone [https://github.com/Yashfeen-Jahan/ai-summarizer.git]
 
 ## 📌 Features
 
@@ -44,23 +41,42 @@ src/
 
 ## ⚙️ Installation
 
+1. Clone the repository
+
 ```bash
-git clone <https://github.com/Yashfeen-Jahan/ai-summarizer.git>
+git clone https://github.com/Yashfeen-Jahan/Growfinix-Internship-Tasks.git
+```
 
-cd project-folder
+2. Open the project
 
+```bash
+cd task-4
+```
+
+3. Install dependencies
+
+```bash
 npm install
+```
 
+4. Start the development server
+
+```bash
 npm run dev
 ```
+
 
 ## 🔑 Environment Variables
 
 Create a `.env` file in the project root.
 
 ```env
-VITE_HUGGINGFACE_API_KEY=API_KEY
+VITE_GEMINI_API_KEY=API_KEY
 ```
+
+## Live Demo
+
+**Live Demo**:[Live demo link](https://)
 
 ## 📚 What I Learned
 
@@ -81,8 +97,25 @@ VITE_HUGGINGFACE_API_KEY=API_KEY
 - Different summary lengths
 - Voice input support
 
+
+## Acknowledgement
+
+This project was completed as **Internship Task 4** under the guidance of **Growfinix**.
+
+Special thanks to **@Growfinix** for providing this internship opportunity and practical learning experience.
+
+## Internship Details
+
+**Internship**: Growfinix Technology Internship 
+
+**Task**: Task-4:AI Powered Text Summarizer
+
+**Role**: Frontend Development
+
 ## 👨‍💻 Developed By
 
 **Yashfeen Jahan**
 
-Frontend Developer Intern - Growfinix
+## 📄 License
+
+This project is created for learning and internship purposes under the Growfinix Internship Program.
