@@ -76,7 +76,7 @@ VITE_GEMINI_API_KEY=API_KEY
 
 ## Live Demo
 
-**Live Demo**:[Live demo link](https://)
+**Live Demo**:[Live demo link](https://growfinix-internship-tasks-792b.vercel.app)
 
 ## 📚 What I Learned
 
