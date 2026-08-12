@@ -24,7 +24,7 @@ This project was developed as **Internship Task 1** assigned by **Growfinix**. I
 
 1. Clone the repository
    ```bash
-   git clone <https://github.com/Yashfeen-Jahan/Growfinix-Internship-Task-1.git>
+   git clone <https://github.com/Yashfeen-Jahan/Growfinix-Internship-Tasks.git>
    ```
 
 2. Navigate to the project folder
@@ -41,6 +41,10 @@ This project was developed as **Internship Task 1** assigned by **Growfinix**. I
    ```bash
    npm run dev
    ```
+
+ ## Live Demo 
+
+ **Live Demo** : <> 
 
 ## Project Structure
 
