@@ -44,7 +44,7 @@ This project was developed as **Internship Task 1** assigned by **Growfinix**. I
 
  ## Live Demo 
 
- **Live Demo** : < > 
+ **Live Demo** :[Live Demo Link](https://growfinix-internship-tasks-gy1k.vercel.app)
 
 ## Project Structure
 
