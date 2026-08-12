@@ -1,4 +1,4 @@
-# Growfinix-Internship Task-
+# Growfinix-Internship Task
 
 # User Account & Session Management Panel
 
@@ -10,10 +10,9 @@ A modern and responsive **User Account & Session Management Panel** built with *
 - 🛡️ Protected Routes
 - 📊 Interactive Dashboard
 - 👤 User Profile Management
-- 🔒 Security Settings (Change Password)
+- 🔒 Security Settings
 - ⚙️ Preferences Management
 - 🚪 Logout Functionality
-- 📱 Responsive Design
 - 🎨 Clean UI using Tailwind CSS
 
 ## 🛠️ Tech Stack
@@ -48,12 +47,33 @@ src
 
 ## ⚙️ Installation
 
+1. Clone the repository
+
 ```bash
-git clone <https://github.com/Yashfeen-Jahan/growfinix-user-account-and-session-mangement-panel.git>
+git clone <https://github.com/Yashfeen-Jahan/Growfinix-Internship-Tasks.git>
+```
+
+2. Open the project
+
+```bash
 cd task-3
+```
+
+3. Install dependencies
+
+```bash
 npm install
+```
+
+4. Start the development server
+
+```bash
 npm run dev
 ```
+
+## Live Demo
+
+**Live Demo**:[Live demo link](https://growfinix-internship-tasks-p5cu.vercel.app)
 
 ## 📸 Screens
 
@@ -82,8 +102,16 @@ npm run dev
 - Dark Mode
 - Database Support
 
+## Acknowledgement
+
+This project was completed as **Internship Task 3** under the guidance of **Growfinix**.
+
+Special thanks to **@Growfinix** for providing this internship opportunity and practical learning experience.
+
 ## 👩‍💻 Developed By
 
 **Yashfeen Jahan**
 
-GitHub: https://github.com/Yashfeen-Jahan/growfinix-user-account-and-session-management-panel.git
+## 📄 License
+
+This project is created for learning and internship purposes under the Growfinix Internship Program.
