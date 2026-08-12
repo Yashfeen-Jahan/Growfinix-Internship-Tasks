@@ -41,13 +41,13 @@ src/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Yashfeen-Jahan/growfinix-smart-chat-simulator.git
+git clone <https://github.com/Yashfeen-Jahan/Growfinix-Internship-Tasks.git>
 ```
 
 2. Open the project
 
 ```bash
-cd growfinix-smart-chat-simulator
+cd task-2
 ```
 
 3. Install dependencies
@@ -61,6 +61,10 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Live Demo
+
+**Live Demo**:[Live demo link](https://growfinix-internship-tasks-dcup.vercel.app)
 
 ## ✨ Future Improvements
 
