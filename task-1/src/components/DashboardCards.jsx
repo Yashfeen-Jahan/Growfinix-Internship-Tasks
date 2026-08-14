@@ -17,11 +17,11 @@ export default function StatsCards() {
   ];
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
       {stats.map((item, idx) => (
-        <div key={idx} className={`${item.bg} border ${item.border} p-4 rounded-xl`}>
-          <p className={`text-2xl font-extrabold ${item.text}`}>{item.count}</p>
-          <p className="text-xs font-semibold text-gray-600 mt-1">{item.label}</p>
+        <div key={idx} className={`${item.bg} border ${item.border} p-3 md:p-4 rounded-xl shadow-sm flex flex-col justify-center transition-transform hover:scale-[1.02]`}>
+          <p className={`text-xl sm:text-2xl md:text-3xl font-extrabold ${item.text}`}>{item.count}</p>
+          <p className="text-xs font-semibold text-gray-600 mt-1 leading-tight truncate">{item.label}</p>
         </div>
       ))}
     </div>
