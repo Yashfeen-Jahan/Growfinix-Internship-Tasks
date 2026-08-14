@@ -6,13 +6,13 @@ This project was developed as **Internship Task 1** assigned by **Growfinix**. I
 
 ## ✨ Features
 
-- ➕ **Add Enquiries:** Submit new tour enquiries with details like name, email, phone, tour name, and budget.
-- 📋 **View Enquiries:** View all active customer enquiries in a structured table.
-- ✏️ **Edit & Update:** Edit existing enquiry details with automatic form pre-filling.
-- 🗑️ **Delete Enquiries:** Remove enquiries instantly from the dashboard.
-- 🔍 **Search & Filter:** Search enquiries by customer name or tour name, and filter by status (*New*, *In Progress*, *Closed*).
-- 📱 **Fully Responsive:** Mobile-friendly grid layout with horizontal scrolling for tables on smaller screens.
-- ⚡ **State Management:** Powered by React Context API for real-time global state updates.
+- **Add Enquiries:** Submit new tour enquiries with details like name, email, phone, tour name, and budget.
+- **View Enquiries:** View all active customer enquiries in a structured table.
+-  **Edit & Update:** Edit existing enquiry details with automatic form pre-filling.
+- **Delete Enquiries:** Remove enquiries instantly from the dashboard.
+- **Search & Filter:** Search enquiries by customer name or tour name, and filter by status (*New*, *In Progress*, *Closed*).
+- **Fully Responsive:** Mobile-friendly grid layout with horizontal scrolling for tables on smaller screens.
+- **State Management:** Powered by React Context API for real-time global state updates.
 
 ---
 
@@ -33,18 +33,18 @@ Follow these steps to run the project locally on your machine:
    ```bash
    (https://github.com/Yashfeen-Jahan/Growfinix-Internship-Tasks.git)
 
-2. Navigate to the project folder:
+2. **Navigate to the project folder:**
 
 ```Bash
 cd task-1
 ```
-3. Install dependencies:
+3. **Install dependencies:**
 
 ```Bash
 npm install
 ```
 
-4. Start the development server:
+4. **Start the development server:**
 
 ```Bash
 npm run dev
