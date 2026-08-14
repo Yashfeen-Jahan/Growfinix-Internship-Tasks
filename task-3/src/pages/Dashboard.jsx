@@ -17,7 +17,7 @@ function Dashboard() {
 
   return (
     <div className="min-h-screen bg-[#d6e8ee] flex relative">
-      {/* Sidebar Component */}
+     
       <Sidebar 
         setShowLogout={setShowLogout} 
         isOpen={isSidebarOpen} 

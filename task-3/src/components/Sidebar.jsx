@@ -9,7 +9,7 @@ import {
 import { NavLink } from "react-router-dom";
 
 function Sidebar({ setShowLogout, isOpen, setIsOpen }) {
-  // Common nav link style function taaki code repetitive na ho
+
   const getNavClass = ({ isActive }) =>
     `flex items-center gap-3 px-4 py-3 rounded-lg font-medium transition-colors w-full ${
       isActive

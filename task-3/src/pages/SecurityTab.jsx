@@ -10,7 +10,6 @@ function SecurityTab() {
   const [showNew, setShowNew] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
 
-  // Mobile Sidebar & Logout Modal States
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [showLogout, setShowLogout] = useState(false);
 
