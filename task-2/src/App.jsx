@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Menu } from 'lucide-react';
 import Sidebar from './components/Sidebar';
 import ChatArea from './components/ChatArea';
 import InputBox from './components/InputBox';
@@ -8,6 +9,7 @@ function App() {
   const [messages, setMessages] = useState(initialMessages);
   const [isTyping, setIsTyping] = useState(false);
 
+  const [isSidebarOpen, setIsSidebarOpen] =useState(false);
   
   const getCurrentTime = () => {
     return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
@@ -15,7 +17,6 @@ function App() {
 
 
   const handleSendMessage = (text) => {
-    // 1. User ka message add karein
     const userMsg = {
       id: Date.now(),
       sender: 'user',
@@ -24,7 +25,7 @@ function App() {
     };
 
     setMessages((prev) => [...prev, userMsg]);
-    setIsTyping(true); // Typing indicator START
+    setIsTyping(true); // Typing indicator start
 
     
     setTimeout(() => {
@@ -52,15 +53,35 @@ function App() {
   };
 
   return (
-    <div className="flex h-screen bg-slate-900 overflow-hidden font-sans">
-      {/* 1. Left Sidebar */}
-      <Sidebar />
+    <div className="flex h-screen bg-slate-900 overflow-hidden font-sans relative">
+      
+      {isSidebarOpen && (
+        <div 
+          className="fixed inset-0 bg-black/60 z-20 md:hidden"
+          onClick={() => setIsSidebarOpen(false)}
+        />
+      )}
+      <Sidebar 
+        isOpen={isSidebarOpen} 
+        onClose={() => setIsSidebarOpen(false)} 
+      />
+      <div className="flex-1 flex flex-col h-full w-full min-w-0">
+        <div className="md:hidden flex items-center justify-between p-4 bg-slate-800 text-white border-b border-slate-700 z-10">
+          <button 
+            onClick={() => setIsSidebarOpen(true)}
+            className="p-2 rounded-lg bg-slate-700 hover:bg-slate-600 focus:outline-none"
+            aria-label="Open Sidebar"
+          >
+            <Menu className='w-6 h-6 text-white'/>
+          </button>
+          <h1 className="font-semibold text-lg">AI Chat Simulator</h1>
+          <div className="w-6"></div> 
+        </div>
 
-   
-      <div className="flex-1 flex flex-col h-full">
         <ChatArea messages={messages} isTyping={isTyping} />
         <InputBox onSendMessage={handleSendMessage} disabled={isTyping} />
       </div>
+
     </div>
   );
 }

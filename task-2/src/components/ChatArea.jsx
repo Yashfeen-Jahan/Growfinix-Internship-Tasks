@@ -17,10 +17,10 @@ export default function ChatArea({ messages, isTyping }) {
     <div className="flex-1 flex flex-col h-full bg-[#f8fafc] text-slate-800 overflow-hidden">
       
       {/* 1. Header Bar */}
-      <div className="flex items-center justify-between px-8 py-4 border-b border-slate-200 bg-white shrink-0">
+      <div className="flex items-center justify-between px-4 sm:px-8 py-3 sm:py-4 border-b border-slate-200 bg-white shrink-0">
         <div>
-          <h2 className="text-lg font-bold text-slate-900">Smart Chat Interface Simulator</h2>
-          <p className="text-xs text-slate-500">Built with React, Tailwind CSS & Framer Motion</p>
+          <h2 className="text-sm sm:text-lg font-bold text-slate-900 truncate max-w-[200px] sm:max-w-none">Smart Chat Interface Simulator</h2>
+          <p className="text-[10px] sm:text-xs text-slate-500">Built with React, Tailwind CSS & Framer Motion</p>
         </div>
         <button className="p-2 text-slate-600 hover:bg-slate-100 rounded-full transition">
           <Moon className="w-5 h-5" />
@@ -28,11 +28,11 @@ export default function ChatArea({ messages, isTyping }) {
       </div>
 
       {/* 2. Messages Container */}
-      <div className="flex-1 overflow-y-auto p-8 space-y-6">
+      <div className="flex-1 overflow-y-auto p-3 sm:p-6 space-y-4 sm:space-y-6">
         
         {/* Date Tag */}
         <div className="flex justify-center">
-          <span className="bg-slate-200/60 text-slate-600 text-xs px-3 py-1 rounded-full font-medium">
+          <span className="bg-slate-200/60 text-slate-600 text-[10px] sm:text-xs px-3 py-1 rounded-full font-medium">
             Today
           </span>
         </div>
@@ -48,20 +48,20 @@ export default function ChatArea({ messages, isTyping }) {
                 initial={{ opacity: 0, y: 15, scale: 0.98 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 0.3, ease: 'easeOut' }}
-                className={`flex items-start gap-3 ${
+                className={`flex items-start gap-2 sm:gap-3 ${
                   isBot ? 'justify-start' : 'justify-end'
                 }`}
               >
                 {/* Bot Avatar Icon */}
                 {isBot && (
-                  <div className="w-9 h-9 rounded-full bg-indigo-600 flex items-center justify-center shrink-0 shadow-md">
-                    <Bot className="w-5 h-5 text-white" />
+                  <div className="w-7 h-7 sm:w-9 sm:h-9 rounded-full bg-indigo-600 flex items-center justify-center shrink-0 shadow-md mt-0.5">
+                    <Bot className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                   </div>
                 )}
 
                 {/* Message Bubble */}
                 <div
-                  className={`max-w-xl p-4 rounded-2xl text-sm leading-relaxed ${
+                  className={`max-w-[85%] sm:max-w-xl p-3 rounded-2xl text-xs sm:text-sm leading-relaxed ${
                     isBot
                       ? 'bg-slate-100 text-slate-800 rounded-tl-none shadow-sm'
                       : 'bg-indigo-600 text-white rounded-tr-none shadow-md'
@@ -83,7 +83,6 @@ export default function ChatArea({ messages, isTyping }) {
           })}
         </AnimatePresence>
 
-        {/* Typing Indicator with Animation */}
         <AnimatePresence>
           {isTyping && (
             <motion.div
@@ -91,9 +90,9 @@ export default function ChatArea({ messages, isTyping }) {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 5 }}
               transition={{ duration: 0.2 }}
-              className="flex items-start gap-3 justify-start"
+              className="flex items-start gap-2 sm:dap-3 justify-start"
             >
-              <div className="w-9 h-9 rounded-full bg-indigo-600 flex items-center justify-center shrink-0 shadow-md">
+              <div className="w-7 h-7 sm:w-9 sm:h-9 rounded-full bg-indigo-600 flex items-center justify-center shrink-0 shadow-md mt-0.5">
                 <Bot className="w-5 h-5 text-white" />
               </div>
               <div className="bg-slate-100 p-4 rounded-2xl rounded-tl-none flex flex-col gap-1 items-start">
@@ -108,7 +107,6 @@ export default function ChatArea({ messages, isTyping }) {
           )}
         </AnimatePresence>
 
-        {/* Anchor element for Auto-Scroll */}
         <div ref={messagesEndRef} />
 
       </div>

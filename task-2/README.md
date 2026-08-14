@@ -36,35 +36,30 @@ src/
 │── main.jsx
 ```
 
-## ⚙️ Installation
+## 🚀 Getting Started
 
-1. Clone the repository
+Follow these steps to run the project locally on your machine:
 
-```bash
-git clone <https://github.com/Yashfeen-Jahan/Growfinix-Internship-Tasks.git>
+1. **Clone the repository:**
+   ```bash
+   (https://github.com/Yashfeen-Jahan/Growfinix-Internship-Tasks.git)
+
+2. **Navigate to the project folder:**
+
+```Bash
+cd task-1
 ```
+3. **Install dependencies:**
 
-2. Open the project
-
-```bash
-cd task-2
-```
-
-3. Install dependencies
-
-```bash
+```Bash
 npm install
 ```
 
-4. Start the development server
+4. **Start the development server:**
 
-```bash
+```Bash
 npm run dev
 ```
-
-## Live Demo
-
-**Live Demo**:[Live demo link](https://growfinix-internship-tasks-dcup.vercel.app)
 
 ## ✨ Future Improvements
 
@@ -91,8 +86,8 @@ This project helped in understanding:
 
 ## 👨‍💻 Author
 
-Yashfeen Jahan
+**Yashfeen Jahan**
 
-## 📄 License
+## Live Demo
 
-This project is created for learning and internship purposes under the Growfinix Internship Program.
+**Live Demo**:[Live demo link](https://growfinix-internship-tasks-dcup.vercel.app)
