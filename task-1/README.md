@@ -50,10 +50,6 @@ npm install
 npm run dev
 ```
 
-## Live Demo
-
-🔗 Live Application: View Live Demo
-
  ## 📁 Project Structure
 
 task-1/
@@ -75,3 +71,7 @@ Special thanks to @Growfinix for providing this opportunity and practical learni
 ## 👤 Author
 
 **Yashfeen Jahan**
+
+## Live Demo
+
+**Live Application**:[Live demo link](https://growfinix-internship-tasks.vercel.app)
