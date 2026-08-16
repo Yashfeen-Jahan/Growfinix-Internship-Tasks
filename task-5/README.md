@@ -58,6 +58,7 @@ The application is responsive and works on:
 
 ### Folder Structure
 
+```
 Task 5/
 ├── src/
 │   ├── components/
@@ -68,6 +69,7 @@ Task 5/
 ├── public/
 ├── package.json
 └── README.md
+```
 
 ## 🚀 Getting Started
 
