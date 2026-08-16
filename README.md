@@ -1,38 +1,66 @@
-# Growfinix Internship Tasks
+# Growfinix Technology — Frontend Development Internship
 
-This repository contains all the projects completed during my **Growfinix Web Development Internship**.
+**Intern:** Yashfeen Jahan  
+**Organization:** Growfinix Technology  
+**Duration:** 8 Weeks
 
 ## About
 
-These projects were developed as part of the internship program to improve practical skills in frontend web development using modern technologies.
+This repository contains the projects completed during my **Frontend Development Internship at Growfinix Technology**. The internship provided practical experience in React, responsive design, state management, API integration, and modern frontend development.
 
-## Completed Tasks
+## Internship Tasks
 
-### ✅ Task 1 – Tour Enquiry Dashboard
+### Task 1 — Tour / Property Enquiry Dashboard
+**Tech Stack:** React, Tailwind CSS, Context API  
+**Status:** ✅ Completed
+
+### Task 2 — Smart Chat Interface Simulator
+**Tech Stack:** React, Tailwind CSS, Framer Motion  
+**Status:** ✅ Completed
+
+### Task 3 — User Account & Session Management Panel
+**Tech Stack:** React, Tailwind CSS, React Router  
+**Status:** ✅ Completed
+
+### Task 4 — AI-Powered Text Summarizer
+**Tech Stack:** React, Tailwind CSS, AI API  
+**Status:** ✅ Completed
+
+### Task 5 — E-commerce Product Filter & Search
+**Tech Stack:** React, Tailwind CSS, Custom Hooks  
+**Status:** ✅ Completed
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
 - React.js
-- Context API
 - Tailwind CSS
+- State Management
+- Git & GitHub
 
-###  Task 2 - Smart Chat Interface Simulator
-- React.js
-- Tailwind CSS
-- Framer-motion
+## Repository Structure
 
+```
+Growfinix-Internship-Tasks/
+│
+├── Task-1/
+├── Task-2/
+├── Task-3/
+├── Task-4/
+├── Task-5/
+└── README.md
+```
 
-###  Task 3 - User Account & Session Management Panel
-- React.js
-- Tailwind CSS
-- React-router
+## Links 
 
-### ⏳ Task 2 - Smart Chat Interface Simulater
-- React.js
-- Tailwind CSS
-- Framer Motion
+- 🔗**LinkedIn Profile:**[ Yashfeen Jahan ](https://www.linkedin.com/in/yashfeen-jahan-265a44380)
+- 🏢**Growfinix Technology:**[Growginix](https://www.growfinix.in/)
+- 💻**GitHub:**[ View Repository ](https://github.com/Yashfeen-Jahan/Growfinix-Internship-Tasks.git)
 
-## Internship
-
-Completed as part of the **Growfinix Web Development Internship**.
-
-## Author
+## Author 
 
 **Yashfeen Jahan**
+
+⭐Thanks for visiting my repository!
