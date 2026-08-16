@@ -58,30 +58,15 @@ The application is responsive and works on:
 
 ### Folder Structure
 
-task-5/
-│
+Task 5/
 ├── src/
-│   │
 │   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── SearchBar.jsx
-│   │   ├── Sidebar.jsx
-│   │   ├── ProductCard.jsx
-│   │   └── ProductList.jsx
-│   │
 │   ├── data/
-│   │   └── products.js
-│   │
 │   ├── hooks/
-│   │   └── useDebounce.js
-│   │
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-│
+│   └── main.jsx
 ├── public/
 ├── package.json
-├── package-lock.json
 └── README.md
 
 ## 🚀 Getting Started
