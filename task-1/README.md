@@ -51,7 +51,7 @@ npm run dev
 ```
 
  ## 📁 Project Structure
-
+```
 task-1/
 ├── src/
 │   ├── components/     
@@ -60,7 +60,8 @@ task-1/
 │   └── main.jsx         
 ├── public/              
 ├── package.json
-└── README.md           
+└── README.md 
+```          
 
 ## 🤝 Acknowledgements
 
