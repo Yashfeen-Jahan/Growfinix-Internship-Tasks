@@ -110,4 +110,4 @@ npm run dev
 
 ## Live Demo
 
-**Live Application**: [Live Demo Link](https://growfinix-internship-tasks.vercel.app)
+**Live Application**: [Live Demo Link](https://growfinix-internship-tasks-6ec8.vercel.app)
