@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEnquiry } from '../context/EnquiryContext';
 
-export default function StatsCards() {
+export default function DashboradCards() {
   const { enquiries } = useEnquiry();
 
   const total = enquiries.length;
